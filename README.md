@@ -1,4 +1,4 @@
-# Laravel E-Commerce API - Authentication System
+# Laravel-api-starter-kit - Authentication System
 
 A complete Laravel API authentication system with user registration, login, email verification, password reset, and OTP functionality.
 
@@ -26,7 +26,7 @@ A complete Laravel API authentication system with user registration, login, emai
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/chandan-rauniyar/laravel-api-starter-kit.git
-cd E-Commerse_API
+cd "Project_Folder_Name"
 ```
 
 ### 2. Install Dependencies
@@ -117,8 +117,8 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "Chandan",
+    "email": "Chandan@example.com",
     "password": "password123"
 }
 ```
@@ -130,8 +130,8 @@ Content-Type: application/json
     "token_type": "Bearer",
     "user": {
         "id": 1,
-        "name": "John Doe",
-        "email": "john@example.com",
+        "name": "Chandan",
+        "email": "Chandan@example.com",
         "email_verified_at": null,
         "created_at": "2024-06-01T12:00:00.000000Z",
         "updated_at": "2024-06-01T12:00:00.000000Z"
@@ -153,7 +153,7 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-    "email": "john@example.com",
+    "email": "Chandan@example.com",
     "password": "password123"
 }
 ```
@@ -165,8 +165,8 @@ Content-Type: application/json
     "token_type": "Bearer",
     "user": {
         "id": 1,
-        "name": "John Doe",
-        "email": "john@example.com",
+        "name": "Chandan",
+        "email": "Chandan@example.com",
         "email_verified_at": "2024-06-01T12:00:00.000000Z",
         "created_at": "2024-06-01T12:00:00.000000Z",
         "updated_at": "2024-06-01T12:00:00.000000Z"
@@ -189,7 +189,7 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-    "email": "john@example.com"
+    "email": "Chandan@example.com"
 }
 ```
 
@@ -213,7 +213,7 @@ Content-Type: application/json
 **Request Body:**
 ```json
 {
-    "email": "john@example.com",
+    "email": "Chandan@example.com",
     "otp": "123456"
 }
 ```
@@ -274,7 +274,7 @@ Accept: application/json
 **Request Body:**
 ```json
 {
-    "email": "john@example.com"
+    "email": "Chandan@example.com"
 }
 ```
 
@@ -291,7 +291,7 @@ Accept: application/json
 **Request Body:**
 ```json
 {
-    "email": "john@example.com",
+    "email": "Chandan@example.com",
     "otp": "123456"
 }
 ```
@@ -310,7 +310,7 @@ Accept: application/json
 **Request Body:**
 ```json
 {
-    "email": "john@example.com",
+    "email": "Chandan@example.com",
     "reset_token": "long_random_token_here",
     "new_password": "newPassword456"
 }
