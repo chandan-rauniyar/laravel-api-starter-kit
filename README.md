@@ -25,7 +25,7 @@ A complete Laravel API authentication system with user registration, login, emai
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/chandan-rauniyar/laravel-api-starter-kit.git>
 cd E-Commerse_API
 ```
 
